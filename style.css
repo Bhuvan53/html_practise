@@ -1,0 +1,90 @@
+#name{
+    border-radius : 10px;
+    height : 90px;
+    display : block;
+    background-color : black;
+    color : rgb(202,202,227);
+}
+#commu{
+    top : 40px;
+    position : absolute;
+    right : 10px;
+  }
+#intro{
+    background-color : rgb(235,218,218);
+}
+#ski{
+    background-color : rgb(235,218,218);
+}
+#edu{
+    background-color : rgb(235,218,218);
+}
+#exp{
+    background-color : rgb(235,218,218);
+}
+#soft-ski{
+    background-color : rgb(235,218,218);
+}
+#extra{
+    background-color : rgb(235,218,218);
+}
+h1{
+    display :inline-block;
+    position : relative;
+    left : 10px;
+    top : -7px;
+}
+a{
+    text-decoration: none;
+    color : rgb(202,202,227);
+}
+.line{
+    margin : 5px;
+    border-radius : 5px;
+    height : 10px;
+    background-color : rgb(127,133,122);
+}
+h2{
+    display : inline-block;
+    position : relative;
+    text-decoration: underline;
+}
+p{
+    margin : 0px;
+}
+#tec-content{
+    display : none;
+}
+#edu-content{
+    display : none;
+}
+#exp-content{
+    display : none;
+}
+#sof-content{
+    display : none;
+}
+#ext-content{
+    display : none;
+}
+
+/*apllying style*/
+#ski:hover #tec-content{
+    display : block;
+}
+
+#edu:hover #edu-content{
+    display : block;
+}
+
+#exp:hover #exp-content{
+    display : block;
+}
+
+#soft-ski:hover #sof-content{
+    display : block;
+}
+
+#extra:hover #ext-content{
+    display : block;
+}
